@@ -1,0 +1,110 @@
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    font-family: sans-serif;
+}
+
+.form-wrapper {
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 2px solid #e0e0e0;
+    width: 100%;
+    max-width: 600px;
+}
+
+.form-wrapper.editing-mode {
+    border-color: #f59e0b;
+    background-color: #fffbeb;
+}
+
+.mode-badge {
+    margin-bottom: 12px;
+    font-size: 0.9rem;
+}
+
+.service-form {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.input-name,
+.input-price {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-name input,
+.input-price input {
+    width: 100%;
+    height: 27px;
+    font-size: 1rem;
+}
+
+.input-name {
+    flex: 2;
+}
+
+.error-text {
+    color: #dc2626;
+    font-size: 0.8rem;
+    margin-top: 4px;
+}
+
+.button-group {
+    display: flex;
+    gap: 6px;
+    flex-shrink: 0;
+}
+
+.button-group button {
+    padding: 7px 14px;
+    cursor: pointer;
+}
+
+.service-list {
+    padding-left: 20px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.item-actions {
+    display: flex;
+    gap: 4px;
+}
+
+.item-actions button {
+    cursor: pointer;
+    padding: 2px 8px;
+}
+
+.search-wrapper {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.search-wrapper input {
+    flex: 1;
+    padding: 6px 8px;
+    font-size: 1rem;
+}
+
+.clear-search-btn {
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.no-results {
+    color: #6b7280;
+    font-style: italic;
+}
